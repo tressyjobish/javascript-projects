@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #686de0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 20px;
+}
+.container{
+    background-color: seashell;
+    border-radius: 10px;
+    padding:10px 20px;
+   
+    text-align: center;
+    
+}
+h3{
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+.joke{
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+}
+.btn{
+    background-color: #9f68e3;
+    color: seashell;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(red, green, blue, alpha);
+    padding: 20px 30px;
+}
