@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+}
+    .background{
+        background-image: url('img/b3f91a7a-bbfc-492e-bf5c-cdb7eb2b29eb-GettyImages-1177487069.jpg');
+        position: absolute;
+        top:-20px;
+        bottom:-20px;
+        right: -20px;
+        left:-20px;
+        z-index: -1;
+        filter:blur(10px);
+        
+        
+    }
